@@ -25,3 +25,11 @@ Eg.
 ```
 make install circuit=blink
 ```
+
+Tests:
+
+ Tests can be found with the convention `{component_name}_tb`. To run the tests use:
+
+ ```
+ make run circuit={component_name}_tb
+ ```
